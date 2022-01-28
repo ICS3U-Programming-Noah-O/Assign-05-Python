@@ -242,8 +242,8 @@ def main():
             if work_question == "n" or work_question == "N" \
                     or work_question == "no":
                 while True:
-                    user_work = input
-                    ("Enter the amount of work done in joules: ")
+                    user_work = input(
+                        "Enter the amount of work done in joules: ")
                     print(" ")
                     # Make sure that work inputs are valid
                     try:
